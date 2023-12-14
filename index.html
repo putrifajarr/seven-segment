@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Seven Segment Display</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+</html>
+
+<body>
+    <header>
+        <h1>Seven Segment Display</h1>
+        <h2>-- Putri Fajar Romadhon (D121231044) --</h2>
+    </header>
+
+    <section class="all">
+        <div class="input">
+            <div class="teks">
+                <h3>Pilih Input</h3>
+            </div>
+        
+            <div class="btn">
+                    <button onclick="input0()">0</button>
+                    <button onclick="input1()">1</button>
+                    <button onclick="input2()">2</button>
+                    <button onclick="input3()">3</button>
+                    <button onclick="input4()">4</button>
+                    <button onclick="input5()">5</button>
+                    <button onclick="input6()">6</button>
+                    <button onclick="input7()">7</button>
+                    <button onclick="input8()">8</button>
+                    <button onclick="input9()">9</button>
+            </div>
+        </div>
+
+        <div class="hasil">
+            <div class="binary">
+                <div class="teks">
+                  <h3>Binary</h3>
+                </div>
+
+                <div class="tabel" id="binary">
+                    <table>
+                        <thead>
+                            <td>w</td>
+                            <td>x</td>
+                            <td>y</td>
+                            <td>z</td>
+                        </thead>
+
+                        <tbody>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="seven-segment">
+                <div class="teks">
+                    <h3>Seven Segment</h3>
+                </div>
+
+                <div class="tabel" id="output">
+                    <table>
+                        <thead>
+                            <td>a</td>
+                            <td>b</td>
+                            <td>c</td>
+                            <td>d</td>
+                            <td>e</td>
+                            <td>f</td>
+                            <td>g</td>
+                        </thead>
+
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="output">
+
+            <div class="teks">
+                <h3>Output</h3>
+            </div>
+
+            <div class="display">
+                <div class="angka" id="a"></div>
+                <div class="angka" id="b"></div>
+                <div class="angka" id="c"></div>
+                <div class="angka" id="d"></div>
+                <div class="angka" id="e"></div>
+                <div class="angka" id="f"></div>
+                <div class="angka" id="g"></div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
